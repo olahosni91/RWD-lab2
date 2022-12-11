@@ -1,0 +1,240 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+
+    <title>The Flower Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+    <style type="text/css">
+        body
+        {
+            background-color: #F0F0F0;
+        }         
+        #intro
+        {
+            margin: 0 auto;
+            width: 70%;
+            margin-top: 66px;
+            padding: 44px;
+            background: #467612 url("images/intro_background.png") repeat-x;
+            background-size: 100%;
+        }
+        
+        #intro h2, #intro p
+        {
+            z-index: 9999;
+            width: 336px;
+        }
+        
+        #intro h2
+        {
+            padding-bottom: 22px ;
+        }
+        
+        #intro img
+        {
+            width: 80%;
+            height: 100%;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <span class="py-4 ms-5 ps-5 fs-2 fw-bold">The Flower Blog</span>
+        </div>
+      </nav>
+      <nav class="navbar-dark navbar-expand-lg bg-dark">
+
+      <ul class="navbar-nav justify-content-evenly text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Archives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"><img src="Images/rss.png">  Subscribe via. RSS</a>
+          </li>
+      </ul>
+      </nav>
+<div class="content"></div>
+    <section id="intro" class="position-relative rounded-4">
+        <header>
+            <h2 class="position-relative text-light">
+                Do you love flowers as much as we do?</h2>
+        </header>
+        <p class="position-relative p-0 text-light">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut.</p>
+        <img class="position-absolute top-0 end-0 rounded-4" src="images/intro_flower.png" alt="Flower"/>
+    </section>
+
+
+
+    <div style="width: 70%;" class="container mt-4">
+        <section class="row">
+            <div class="col-8">
+                <h2>
+                    This is the title of a blog post</h2>
+                <p class="fst-italic text-secondary">
+                    Posted on June 29th 2009 by <a class="text-secondary" href="#">Mads Kjaer</a> - <a class="text-secondary" href="#comments">3 comments</a>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod tellus eu orci imperdiet nec rutrum lacus blandit. Cras enim nibh, sodales ultricies elementum vel, fermentum id tellus. Proin metus odio, ultricies eu pharetra dictum, laoreet id odio. Curabitur in odio augue. Morbi congue auctor interdum. Phasellus sit amet metus justo. Phasellus vitae tellus orci, at elementum ipsum. In in quam eget diam adipiscing condimentum. Maecenas gravida diam vitae nisi convallis vulputate quis sit amet nibh. Nullam ut velit tortor. Curabitur ut elit id nisl volutpat consectetur ac ac lorem. Quisque non elit et elit lacinia lobortis nec a velit. Sed ac nisl sed enim consequat porttitor.</p>
+                <img class="w-50" src="Images/flower.png">
+                <p>This is a beautiful flower</p>
+
+                <p>Pellentesque ut sapien arcu, egestas mollis massa. Fusce lectus leo, fringilla at aliquet sit amet, volutpat non erat. Aenean molestie nibh vitae turpis venenatis vel accumsan nunc tincidunt. Suspendisse id purus vel felis auctor mattis non ac erat. Pellentesque sodales venenatis condimentum. Aliquam sit amet nibh nisi, ut pulvinar est. Sed ullamcorper nisi vel tortor volutpat eleifend. Vestibulum iaculis ullamcorper diam consectetur sagittis. Quisque vitae mauris ut elit semper condimentum varius nec nisl. Nulla tempus porttitor dolor ac eleifend. Proin vitae purus lectus, a hendrerit ipsum. Aliquam mattis lacinia risus in blandit.
+                    <br> <br>Vivamus vitae nulla dolor. Suspendisse eu lacinia justo. Vestibulum a felis ante, non aliquam leo. Aliquam eleifend, est viverra semper luctus, metus purus commodo elit, a elementum nisi lectus vel magna. Praesent faucibus leo sit amet arcu vehicula sed facilisis eros aliquet. Etiam sodales, enim sit amet mollis vestibulum, ipsum sapien accumsan lectus, eget ultricies arcu velit ut diam. Aenean fermentum luctus nulla, eu malesuada urna consequat in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque massa lacus, sodales id facilisis ac, lobortis sed arcu. Donec hendrerit fringilla ligula, ac rutrum nulla bibendum id. Cras sapien ligula, tincidunt eget euismod nec, ultricies eu augue. Nulla vitae velit sollicitudin magna mattis eleifend. Nam enim justo, vulputate vitae pretium ac, rutrum at turpis. Aenean id magna neque. Sed rhoncus aliquet viverra.</p>
+                <hr>
+<!-- Comments -->
+                <div id="comments" class="my-4">
+                    <p class="fs-4 fw-bold ">Comments</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <div>
+                            <a class="text-dark fw-bold" href="#">George Washington</a>
+                            <p>on June 29th 2009 at 23:35</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div>
+                            <a class="text-dark fw-bold" href="#">Benjamin Franklin</a>
+                            <p>on June 29th 2009 at 23:40</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div>
+                            <a class="text-dark fw-bold" href="#">Barack Obama</a>
+                            <p>on June 29th 2009 at 23:59</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <!-- Post a comment -->
+                <div class="my-4">
+                    <p class="fs-4 fw-bold">Post a comment</p>
+                    <form style="width: 80%;" class=" mx-auto">
+                        <div class="mb-3 row">
+                            <label for="name" class="col-sm-2 fw-bold col-form-label">Name</label>
+                            <div class="col-sm-10">
+                              <input type="text"class="form-control" id="name" >
+                            </div>
+                          </div>
+                        <div class="mb-3 row">
+                            <label for="email" class="col-sm-2 fw-bold col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email"class="form-control" id="email" >
+                            </div>
+                          </div>
+                          <div class="mb-3 row">
+                            <label for="website" class="col-sm-2 fw-bold col-form-label">Website</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="website">
+                            </div>
+                          </div>
+                          <div class="mb-3 row">
+                            <label for="comment" class="col-sm-2 fw-bold col-form-label">Comment</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="comment"></textarea>
+                            <button type="submit" class=" mt-4 btn btn-primary">Post comment</button>
+                            </div>
+                          </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col-4 py-4 ">
+                <div class="bg-light p-4 rounded-4">
+                    <p class="fs-4 fw-bold">Categories</p>
+                    <div class="row me-5">
+                    <a class="text-dark" href="#">Lorem ipsum dolor</a>
+                    <a class="text-dark" href="#">Sit amet consectetur</a>
+                    <a class="text-dark" href="#">Adipisicing elit sed</a>
+                    <a class="text-dark" href="#">Do eiusmod tempor</a>
+                    <a class="text-dark" href="#">Incididunt ut labore</a>
+                </div>
+
+
+                </div>
+
+                <div class="bg-light p-4 rounded-4 mt-3">
+                    <p class="fs-4 fw-bold">Archives</p>
+                    <div class="me-5 row">
+                    <a class="text-dark">December 2008</a>
+                    <a class="text-dark">January 2009</a>
+                    <a class="text-dark">February 2009</a>
+                    <a class="text-dark">March 2009</a>
+                    <a class="text-dark">April 2009</a>
+                    <a class="text-dark">May 2009</a>
+                    <a class="text-dark">June 2009</a>
+                </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <footer class="bg-dark text-light">
+        <div style="width: 80%;" class="mx-auto container row py-5">
+            <div class="col-4">
+                <p class="fs-4 fw-bold">About</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+            <div class="col-4">
+                <p class="fs-4 fw-bold">Blogroll</p>
+                <ul>
+                    <li>NETTUTS+</li>
+                    <li>FreelanceSwitch</li>
+                    <li>In The Woods</li>
+                    <li>Netsetter</li>
+                    <li>PSDTUTS+</li>
+                </ul>
+
+            </div>
+            <div class="col-4">
+                <p class="fs-4 fw-bold">Popular</p>
+                <ul>                   
+                    <li>This is the title of a blog post</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Duis aute irure dolor</li>
+                    <li>Excepteur sint occaecat cupidatat</li>
+                    <li>Reprehenderit in voluptate velit</li>
+                    <li>Officia deserunt mollit anim id est laborum</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>
